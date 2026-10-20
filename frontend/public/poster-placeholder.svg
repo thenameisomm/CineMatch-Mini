@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="342" height="513" viewBox="0 0 342 513">
+  <rect width="342" height="513" fill="#27272a"/>
+  <g fill="none" stroke="#71717a" stroke-width="6" opacity="0.8">
+    <rect x="126" y="196" width="90" height="70" rx="8"/>
+    <path d="M126 210v-14M144 210v-14M162 210v-14M180 210v-14M198 210v-14M126 266v-14M144 266v-14M162 266v-14M180 266v-14M198 266v-14"/>
+    <polygon points="156,216 156,246 180,231" fill="#71717a" stroke="none"/>
+  </g>
+  <text x="171" y="310" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#a1a1aa">Poster</text>
+  <text x="171" y="336" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="#a1a1aa">unavailable</text>
+</svg>

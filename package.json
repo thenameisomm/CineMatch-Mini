@@ -1,0 +1,21 @@
+{
+  "name": "cinematch-mini",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CineMatch-Mini — simplified college viva project (React + Express + local MongoDB)",
+  "scripts": {
+    "dev:backend": "npm run dev --workspace=backend",
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "lint": "npm run lint --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "build": "npm run build --workspaces --if-present"
+  },
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
