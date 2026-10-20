@@ -111,7 +111,7 @@ export function ContentDetailPage() {
         </div>
       )}
       <div className="container mx-auto px-4 pb-12">
-        <div className="-mt-24 flex flex-col gap-6 md:-mt-32 md:flex-row">
+        <div className={`flex flex-col gap-6 md:flex-row ${backdrop ? '-mt-24 md:-mt-32' : 'mt-6'}`}>
           <div className="w-40 shrink-0 overflow-hidden rounded-lg border shadow-lg md:w-56">
             {poster ? (
               <img
@@ -126,7 +126,7 @@ export function ContentDetailPage() {
               </div>
             )}
           </div>
-          <div className="flex-1 pt-2 md:pt-28">
+          <div className={`flex-1 pt-2 ${backdrop ? 'md:pt-28' : ''}`}>
             <div className="flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
               <Badge>{content.type}</Badge>
               <span>{yearOf(content)}</span>
