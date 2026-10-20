@@ -111,7 +111,9 @@ export function ContentDetailPage() {
         </div>
       )}
       <div className="container mx-auto px-4 pb-12">
-        <div className={`flex flex-col gap-6 md:flex-row ${backdrop ? '-mt-24 md:-mt-32' : 'mt-6'}`}>
+        <div
+          className={`flex flex-col gap-6 md:flex-row ${backdrop ? '-mt-24 md:-mt-32' : 'mt-6'}`}
+        >
           <div className="w-40 shrink-0 overflow-hidden rounded-lg border shadow-lg md:w-56">
             {poster ? (
               <img
